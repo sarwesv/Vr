@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0b0d12;
+  color: #e7e9ee;
+  font-family: -apple-system, system-ui, sans-serif;
+}
+
+#ui {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+#status {
+  color: #9aa4b2;
+}
+
+#preview {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 0.5rem;
+  background: #000;
+  margin: 1rem 0;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: #3d6bff;
+  color: white;
+}
+
+button:disabled {
+  background: #2a2f3a;
+  color: #6b7280;
+}
+
+#hint {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+#glcanvas {
+  display: none;
+}
